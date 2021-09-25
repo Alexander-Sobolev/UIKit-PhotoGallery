@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42280C626FFA80900A2A1EE /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42280C526FFA80900A2A1EE /* PhotosCollectionViewController.swift */; };
 		B43D034626FCD61C006A2ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D034526FCD61C006A2ABE /* AppDelegate.swift */; };
 		B43D034826FCD61C006A2ABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D034726FCD61C006A2ABE /* SceneDelegate.swift */; };
 		B43D034A26FCD61C006A2ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D034926FCD61C006A2ABE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42280C526FFA80900A2A1EE /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		B43D034226FCD61C006A2ABE /* UIKit-PhotoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-PhotoGallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43D034526FCD61C006A2ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B43D034726FCD61C006A2ABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				B43D034526FCD61C006A2ABE /* AppDelegate.swift */,
 				B43D034726FCD61C006A2ABE /* SceneDelegate.swift */,
 				B43D035926FCD75B006A2ABE /* MainTabBarController.swift */,
+				B42280C526FFA80900A2A1EE /* PhotosCollectionViewController.swift */,
 				B43D034926FCD61C006A2ABE /* ViewController.swift */,
 				B43D034E26FCD61D006A2ABE /* Assets.xcassets */,
 				B43D035026FCD61D006A2ABE /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 				B43D034A26FCD61C006A2ABE /* ViewController.swift in Sources */,
 				B43D034626FCD61C006A2ABE /* AppDelegate.swift in Sources */,
 				B43D035A26FCD75B006A2ABE /* MainTabBarController.swift in Sources */,
+				B42280C626FFA80900A2A1EE /* PhotosCollectionViewController.swift in Sources */,
 				B43D034826FCD61C006A2ABE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
