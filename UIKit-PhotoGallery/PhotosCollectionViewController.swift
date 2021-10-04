@@ -24,6 +24,7 @@ class PhotosCollectionViewController: UICollectionViewController {
         setupCollectionView()
         setupNavigationView()
         setupSearchBar()
+        
     }
     
     // MARK: - NavigationItemsAction
