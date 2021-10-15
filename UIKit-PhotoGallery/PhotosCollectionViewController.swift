@@ -20,11 +20,10 @@ class PhotosCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.backgroundColor = #colorLiteral(red: 0.8023108636, green: 0.912645682, blue: 0.89, alpha: 1)
+        collectionView.backgroundColor = #colorLiteral(red: 0.8023108636, green: 0.912645682, blue: 0.89, alpha: 1) // 4200
+        setupNavigationBar()
         setupCollectionView()
-        setupNavigationView()
         setupSearchBar()
-        
     }
     
     // MARK: - NavigationItemsAction
@@ -43,7 +42,7 @@ class PhotosCollectionViewController: UICollectionViewController {
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "ID")
     }
     
-    private func setupNavigationView() {
+    private func setupNavigationBar() {
         let titleLabel = UILabel()
         titleLabel.text = "PHOTOS"
         titleLabel.font = UIFont.systemFont(ofSize: 15, weight: .medium)
@@ -63,7 +62,7 @@ class PhotosCollectionViewController: UICollectionViewController {
     // MARK: - UICollectionViewDataSourse, UICollectionViewDelegate
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 0
+        return 0 
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
