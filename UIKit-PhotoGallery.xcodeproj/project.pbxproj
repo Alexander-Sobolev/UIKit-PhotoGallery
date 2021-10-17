@@ -19,6 +19,8 @@
 		B49578BF271B3436008D5812 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49578BE271B3436008D5812 /* NetworkDataFetcher.swift */; };
 		B49578C1271B3493008D5812 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49578C0271B3493008D5812 /* SearchResults.swift */; };
 		B49578C4271B372C008D5812 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49578C3271B372C008D5812 /* PhotosCell.swift */; };
+		B4FB6AB2271CC1D90001B4C7 /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FB6AB0271CC1D80001B4C7 /* Screen1.png */; };
+		B4FB6AB3271CC1D90001B4C7 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FB6AB1271CC1D90001B4C7 /* Screen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		B49578BE271B3436008D5812 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		B49578C0271B3493008D5812 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		B49578C3271B372C008D5812 /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		B4FB6AB0271CC1D80001B4C7 /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
+		B4FB6AB1271CC1D90001B4C7 /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		B4FB6AAF271CC1300001B4C7 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				B4FB6AB0271CC1D80001B4C7 /* Screen1.png */,
+				B4FB6AB1271CC1D90001B4C7 /* Screen2.png */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -189,7 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FB6AB3271CC1D90001B4C7 /* Screen2.png in Resources */,
 				B43D035226FCD61D006A2ABE /* LaunchScreen.storyboard in Resources */,
+				B4FB6AB2271CC1D90001B4C7 /* Screen1.png in Resources */,
 				B43D034F26FCD61D006A2ABE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
